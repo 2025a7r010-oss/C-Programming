@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+    int r,a,b,area,perimeter;
+    printf("Enter the number for area and perimeter of circle = ");
+    scanf("%i", &r);
+    area = 3.14 * r * r ;
+    perimeter = 2 * 3.14 * r ;
+    printf("area of circle is = %i\n",area);
+    printf("perimeter of circle is = %i\n\n",perimeter);
+    printf("Enter the first number for area and perimeter of rectangle = ");
+    scanf("%i",&a);
+    printf("Enter the second number for area and perimeter of rectangle = ");
+    scanf("%i",&b);
+    area = a * b;
+    perimeter = 2*(a+b);
+    printf("area of rectangle = %i\n",area);
+    printf("perimeter of rectangle = %i\n\n",perimeter);
+    printf("Enter the number for area and perimeter of sqare = ");
+    scanf("%i", &a);
+    area = a*a;
+    perimeter = 4*a*a;
+    printf("area of square is = %i\n",area);
+    printf("perimeter of square is = %i\n",perimeter);
+    return 0;
+}
